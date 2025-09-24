@@ -4,8 +4,8 @@ import { useState,useRef } from 'react';
 
 function SyntheticEventDemo() {
   const handleClick = (event) => {
-    console.log("SyntheticEvent:", event);        // React's SyntheticEvent
-    console.log("NativeEvent:", event.nativeEvent); // Browser's native event
+    console.log("SyntheticEvent:", event);        
+    console.log("NativeEvent:", event.nativeEvent); 
     alert("Button clicked!");
   };
 
@@ -14,7 +14,7 @@ function SyntheticEventDemo() {
 
 function EventHandlerDemo() {
   const sayHello = () => {
-    alert("Hello from React!");
+    alert("Hello!");
   };
 
   const greetUser = (name) => {
